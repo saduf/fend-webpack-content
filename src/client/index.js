@@ -1,11 +1,13 @@
 import { checkForName } from './js/nameChecker'
-import { handelSubmit } from './js/formHandler'
+import { handleSubmit } from './js/formHandler'
 
-import { functionName } from './js/formHandler'
+import './styles/resets.scss'
+import './styles/base.scss'
+import './styles/form.scss'
+import './styles/footer.scss'
+import './styles/header.scss'
 
-console.log(checkForName);
-
-alert("I exist!");
-
-alert("I exist!");
-alert("I exist! this makes webpack notice the change when running in verbose mode");
+export {
+    checkForName,
+    handleSubmit
+}
